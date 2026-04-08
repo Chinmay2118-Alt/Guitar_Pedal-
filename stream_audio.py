@@ -7,7 +7,7 @@ import sys
 # --- Configuration ---
 PORT = '/dev/ttyUSB0'  # Change to /dev/ttyACM0 if necessary
 BAUD_RATE = 921600
-BLOCK_SIZE = 256
+BLOCK_SIZE = 512
 BYTES_PER_BLOCK = BLOCK_SIZE * 2  # 64 int16 samples = 128 bytes
 
 def main():

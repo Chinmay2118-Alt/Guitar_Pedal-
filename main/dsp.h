@@ -17,7 +17,7 @@
 #define NR_EPSILON 1e-6f   // Float32 appropriate convergence threshold
 
 // Audio block settings
-#define BLOCK_SIZE 256
+#define BLOCK_SIZE 512
 #define SAMPLE_RATE 48000
 
 // Shared knob variables (written by control task, read by audio task)
